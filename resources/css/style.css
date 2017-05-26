@@ -1,0 +1,180 @@
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  width: 100%;
+  padding: 10px 0;
+  background-color: white;
+  border-bottom: black solid 1px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#logo {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 30px;
+  color: MediumAquamarine;
+}
+
+#logo span {
+  padding: 10px;
+}
+
+nav {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+nav ul {
+  padding-left: 20px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 1232px;
+  margin: 120px auto 80px auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.column.large {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+#main-article {
+  width: 630px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  margin: 0;
+}
+
+.picture-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.picture-heading h1 {
+  margin-top: 0;
+  color: white;
+  text-align: center;
+}
+
+#concert-heading {
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+}
+
+#concert-heading h1 {
+  font-size: 40px;
+  width: 600px;
+  text-align: left;
+}
+
+#cat-heading {
+  background-image: url("../images/img-story-1.png");
+}
+
+#earth-heading {
+  background-image: url("../images/img-story-2.png");
+}
+
+#camera-heading {
+  background-image: url("../images/img-story-3.png");
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.small h2 {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.news-bites li {
+  display: block;
+  padding: 12px 24px;
+  border-bottom: solid black 1px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.mytimes {
+  display: inline-block;
+  padding-right: 20px;
+  border-right: solid 2px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
